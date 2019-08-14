@@ -29,7 +29,7 @@ The model conversion code is in [cerealization/model-to-onnx.py](cerealization/m
 
 ## dependencies
 
-This repo includes a `shell.nix`, so if you use Nix, you can simply run `nix-shell` to drop into a shell with all of the necessary dependencies. Otherwise, you can use your Python (3.6/3.7) environment of choice and `pip install -r requirements.txt` (or equivalent).
+This repo includes a `shell.nix`, so if you use Nix, you can simply run `nix-shell` to drop into a shell with all of the necessary dependencies. Otherwise, you can use your Python (3.6/3.7) environment of choice and `pip install -r requirements-frozen.txt` (or equivalent).
 
 ## running the code
 

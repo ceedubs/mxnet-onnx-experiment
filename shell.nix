@@ -38,6 +38,6 @@ in
     # this shouldn't be necessary but Cody needs to get his editor set up properly :\
     export PYTHONPATH=$PWD/venv/lib/python3.6/site-packages:$PATH
     pip install setuptools==41.0.1
-    pip install -r requirements.txt
+    pip install -r requirements-frozen.txt
     '';
   }

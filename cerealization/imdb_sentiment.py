@@ -25,7 +25,6 @@ def load_data():
 
     # call load_data with allow_pickle implicitly set to true
     (x_train, y_train), (x_test, y_test) = imdb.load_data(num_words=max_features)
-    # (train_data, train_labels), (test_data, test_labels) = imdb.load_data(num_words=10000)
 
     # restore np.load for future normal usage
     np.load = np_load_old
